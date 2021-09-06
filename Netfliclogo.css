@@ -1,0 +1,553 @@
+body {
+  background-image: url(../imag/Netfliximage/Page1/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  color: white;
+  font-size: 16px;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.svg-icon {
+  fill: #e50914;
+  line-height: normal;
+  transform-origin: 0px 0px;
+  width: auto;
+  height: 3.5rem;
+  padding-top: 0;
+}
+#lang {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+
+  height: 45px;
+  width: 120px;
+  color: white;
+  text-align: center;
+
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  line-height: 1.3em;
+  white-space: nowrap;
+
+  padding: 0.25rem 1.375rem;
+  border-radius: 2px;
+
+  text-shadow: none;
+
+  text-align: start;
+  box-sizing: border-box;
+  align-items: center;
+  cursor: default;
+
+  position: absolute;
+  margin-left: 75%;
+}
+.btn1 {
+  background-color: #e50914;
+  border: 1px solid #aaa;
+  line-height: normal;
+  font-size: 0.875rem;
+
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  line-height: 1.3em;
+  white-space: nowrap;
+  font-weight: 400;
+  padding: 0.25rem 1.375rem;
+  border-radius: 2px;
+
+  text-shadow: none;
+  text-align: start;
+  box-sizing: border-box;
+  align-items: center;
+  cursor: default;
+
+  float: none;
+  margin-top: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  margin-left: 82%;
+  height: 45px;
+
+  width: 100px;
+  color: white;
+  text-align: center;
+}
+.Descritption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30em;
+  height: 18em;
+  margin-top: -9em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  /* color: #fff;*/
+  text-align: center;
+}
+#bigtext {
+  font-size: 3rem;
+}
+.hero-card .our-story-card-subtitle {
+  font-size: 1.125rem;
+  margin: 1rem auto;
+}
+.hero-card .our-story-card-text {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+.our-story-card-subtitle .our-story-card-title {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-size: 27px;
+  margin: 0 0 0.4em;
+
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.email-form-title {
+  padding: 0 10%;
+  padding: 0 5%;
+  max-width: 450px;
+  margin: 0 auto;
+  font-weight: 400;
+
+  padding: 0 10%;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.75em 0 0.25em;
+}
+.hero-card .our-story-card-text {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+/*for input email*/
+/*-------------------------------------------------*/
+.email-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.email-form-title {
+  padding: 0 5%;
+  max-width: 450px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+/*use for email box*/
+.email-form-lockup {
+  text-align: center;
+}
+div {
+  display: block;
+}
+ul.structural {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.email-form-lockup .field-email {
+  margin-bottom: 0;
+}
+ul.structural > li {
+  list-style: none;
+  margin-left: 0;
+}
+.nfFormSpace {
+  margin-bottom: 10px;
+}
+ul > li {
+  margin-left: 1.1em;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.email-form-lockup .nfInput {
+  margin: 10px auto;
+}
+.nfInput {
+  max-width: 500px;
+  position: relative;
+}
+/*email input box*/
+.email-form .nfTextField.error {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #ffa00a;
+}
+.nfInput .nfTextField {
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+.error > .nfTextField,
+.nfTextField.error {
+  border-color: #b92d2b;
+}
+.nfTextField:invalid,
+.nfTextField:valid {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.nfTextField {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: solid 1px #8c8c8c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  color: #000;
+  padding: 10px 11px;
+  height: 44px;
+}
+input {
+  line-height: normal;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+input {
+  line-height: normal;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+input[type="email" i] {
+  padding: 1px 2px;
+}
+
+input[Attributes Style] {
+  unicode-bidi: isolate;
+}
+
+input {
+  writing-mode: horizontal-tb;
+
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+.nfInput .placeLabel {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  color: #8c8c8c;
+  font-size: 14px;
+  -webkit-transition: font 0.1s ease, top 0.1s ease, -webkit-transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, -webkit-transform 0.1s ease;
+  -o-transition: font 0.1s ease, top 0.1s ease, -o-transform 0.1s ease;
+  -moz-transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease,
+    -moz-transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease,
+    -webkit-transform 0.1s ease, -moz-transform 0.1s ease,
+    -o-transform 0.1s ease;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.nmhp-cta-extra-large:after {
+  min-height: 40px;
+}
+.nmhp-cta:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+label {
+  cursor: default;
+}
+/*show the error while not enter correct email address*/
+email-form .inputError {
+  color: #ffa00a;
+  text-align: left;
+  margin-bottom: -6px;
+  padding: 6px 3px;
+  font-size: 15px;
+}
+hero-card .our-story-card-text .our-story-cta-container {
+  float: none;
+}
+.email-form-lockup .our-story-cta-container {
+  padding: 0;
+  margin-top: 0;
+}
+.our-story-cta-container {
+  margin-top: 0.75rem;
+}
+div {
+  display: block;
+}
+email-form-lockup .our-story-cta-container {
+  padding: 0;
+  margin-top: 0;
+}
+.nmhp-cta-extra-large {
+  font-size: 1rem;
+  min-height: 40px;
+}
+/* this css is used to gavie shap to Get started button*/
+.nmhp-cta {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.25em auto;
+  padding: 0 1em;
+  line-height: initial;
+  width: auto;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+.btn {
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+/*------------------------------------------------------------------footer part----------------------------------------------------*/
+element.style {
+  position: absolute;
+}
+center-pixel {
+  top: 50%;
+  left: 50%;
+}
+.our-story-card {
+  padding: 70px 45px;
+}
+.our-story-card {
+  position: relative;
+  border-bottom: 8px solid #222;
+
+  margin-bottom: 0;
+  background: 0 0;
+  color: #fff;
+}
+/**-------------------------------------------------------------------------------************************/
